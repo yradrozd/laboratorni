@@ -7,32 +7,74 @@
 
         <title>What is web-site?</title>
         <style type="text/css">
-        input{
-        border:0;
-        padding: 10px;
-        font-size: 18px;
-        }
-        input[type="submit"]{
-            background: blue;
-            color: cornflowerblue;
-        }
-        </style>
-        <style>
-            body{
-                background-color: rgb(197, 205, 209);
-                color: rgb(43, 37, 37);
+            input{
+            border: 5px;;
+            padding: 8px;
+            font-size: 15px;
             }
-        </style>
+            input[type="submit"]{
+                background: blue;
+                color: rgb(227, 229, 233);
+            }
+            </style>
+            <style>
+                body{
+                    background-color: rgb(197, 205, 209);
+                    color: rgb(43, 37, 37);
+                }
+            </style>
+            <style>
+                P { 
+                text-indent: 1.0em; 
+                text-align:justify; 
+               }
+            </style>
+            <style>
+                .text {
+                 text-align:  center;
+                }
+            </style>
+            <style>
+              #menu {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+                border: 2px solid #0066FF;
+                border-radius: 20px 5px;
+                width: 550px;
+                text-align: center;
+                background-color: #33ADFF;
+              }
+              #menu li { display: inline; }
+              #menu a {
+                color: #fff;
+                padding: 5px 10px;
+                text-decoration: none;
+                font-weight: bold;
+                display: inline-block;
+                width: 100px;
+              }
+              #menu a:hover {
+                border-radius: 20px 5px;
+                background-color: #0066FF;
+              }
+            </style>
+            
     </head>
     <body>
+        <ul id="menu">
+            <li><a href="http://www.webtec.com.ua/uk/articles/index/view/2011-05-05/web-site">Головна</a></li>
+            <li><a href="https://prodesign.in.ua/category/novyny/">Новини</a></li>
+            <li><a href="https://www.instagram.com">Контакти</a></li>
+          </ul>
         <div style="font-family: Arial, Helvetica, sans-serif;color: blue;font-size: xx-large;"
         <h1><strong>What is web-site?</strong></h1>
         </div>
         <hr>
         </div>
-        <p><i>Вебсайт або сайт (написання до 2019 р. — веб-сайт, англ. website, від web (веб) і site (місце)[2]) — сукупність вебсторінок та залежного вмісту, доступних у мережі Інтернет, які об'єднані як за змістом, так і за навігацією під єдиним доменним ім'ям.<br>
+        <p><i><strong>Вебсайт або сайт</strong>(написання до 2019 р. — веб-сайт, англ. website, від web (веб) і site (місце)[2]) — сукупність вебсторінок та залежного вмісту, доступних у мережі Інтернет, які об'єднані як за змістом, так і за навігацією під єдиним доменним ім'ям.<br>
             <br>
-              Фізично сайт <u>FJKRFKFKF</u>може розміщуватися як на одному, так і на кількох серверах. Сайтом також називають вузол мережі Інтернет, комп'ютер, за яким закріплена унікальна ІР-адреса, і взагалі будь-який об'єкт в Інтернеті, за яким закріплена адреса, що ідентифікує його в мережі (FTP-site, WWW-site тощо). Набір зв'язаних між собою інформаційних онлайнових ресурсів, призначених для перегляду через комп'ютерну мережу за допомогою спеціальних програм — браузерів. Вебвузол може бути набором документів в електронному вигляді, онлайновою службою. 
+              Фізично сайт може розміщуватися як на одному, так і на кількох серверах. Сайтом також називають вузол мережі Інтернет, комп'ютер, за яким закріплена унікальна ІР-адреса, і взагалі будь-який об'єкт в Інтернеті, за яким закріплена адреса, що ідентифікує його в мережі (FTP-site, WWW-site тощо). Набір зв'язаних між собою інформаційних онлайнових ресурсів, призначених для перегляду через комп'ютерну мережу за допомогою спеціальних програм — браузерів. Вебвузол може бути набором документів в електронному вигляді, онлайновою службою. 
         </i></p>
         <div style= "font-size: large;color: crimson;"
         <h2><u>Історія</u></h2>
@@ -42,7 +84,7 @@
         <div style= "font-size: large;color: crimson;"
         <h3><u>Рейтинг сайтів за популярністю</u></h3>
         </div>
-        <img src="unnamed.jpg" style="float: right ;">
+        <img src="img/unnamed.jpg" style="float: right ;">
         <p><i>Дані станом на 04.05.2021.</i></p>
         <ol>
             <li><mark>«Google»</mark>(google.com) — пошукова система та мультисервісний портал.</li>
@@ -75,11 +117,18 @@
         <div style="color: crimson;font-size: x-large;"
             <p>Макет односторінкового сайту</p>
         </div>
-        <img src="landing-page-maket.png" style="float:inline-start">
-        <input type="Email" name="" placeholder="Твоя пошта">
-        <input type="submit" name="">
-        <div style="color: darkmagenta;font-size: larger;"
-        <p>Автор: <a href="https://www.instagram.com/">Yra Drozd</a></p>
+        <img src="img/landing-page-maket.png" style="float:inline-start">
+        <hr>
+        <form>
+            <p><b>Відгуки та пропозиції:</b>
+                <br>
+                <textarea name="comment" cols="40" rows="3"></textarea></p>
+               <p><input type="submit" value="Відправити">
+                <input type="reset" value="Очистити"></p>
+              </form>
+        <hr>
+        <div style="color: darkmagenta;font-size:medium;font;"
+        <p>Авторські права 2021 © ІТ-школа. Усі права захищені.</p>
         </div>
         </div>
     </body>
