@@ -1,1 +1,57 @@
-щощ
+input{
+    border: 5px;;
+    padding: 8px;
+    font-size: 15px;
+    }
+input[type="submit"]{
+    background: blue;
+    color: rgb(227, 229, 233);
+    }
+P { 
+    text-indent: 1.0em; 
+    text-align:justify; 
+       }
+body{
+    background-color: rgb(197, 205, 209);
+    color: rgb(43, 37, 37);
+    }
+    
+    #menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 2px solid #0066FF;
+    border-radius: 20px 5px;
+    text-align: center;
+    background-color: #33ADFF;
+  }
+  #menu li { display: inline; }
+  #menu a {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 250px;
+  }
+  #menu a:hover {
+    border-radius: 20px 5px;
+    background-color: #0066FF;
+  }
+  .style1 {
+    font-size: small;color: rgb(97, 20, 220);
+   }
+   .style2 {
+    font-family: Arial, Helvetica, sans-serif;color: blue;font-size: large;
+   }
+   .img{
+    float: right ;
+   }
+   .style_end {
+    color: rgb(231, 19, 19);font-size:medium;
+   }
+   .back{
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       color: rgb(3, 0, 0);
+   }
+
