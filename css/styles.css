@@ -1,0 +1,48 @@
+body {
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+  }
+  .title {
+    color: rgb(1, 3, 8);
+    font-weight: 150;
+    font-size: 50px;
+    margin: 40px 0px 40px;
+  }
+  .timer {
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-weight: 150;
+    text-align: center;
+    font-size: 50px;
+  }
+  .number {
+    display:inline-table;
+  }
+  .img{
+    float: left;
+    margin-right: 15px;
+   }
+  .time {
+    padding: 15px;
+    border-radius: 10px;
+    background: #2613ce;
+    display: inline-block;
+  }
+  .text {
+    display: block;
+    padding-top: 10px;
+    font-size: 30px;
+    color: rgb(19, 5, 80);
+  }
+  .message{
+    display: none;
+  }
+  .visible{
+    display: block;
+    font-size: xx-large;
+  }
+  .hidden{
+    display: none;
+  }
